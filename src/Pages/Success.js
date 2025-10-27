@@ -63,6 +63,7 @@ function Success() {
   };
 
   return (
+    <body className="success">
     <Screen>
       <Charac />
       <div className="Container">
@@ -80,6 +81,7 @@ function Success() {
         />
       </div>
     </Screen>
+    </body>
   );
 }
 
